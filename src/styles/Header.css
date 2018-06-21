@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  background: #282c34;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.header__title {
+  color: #61dafb;
+  text-align: center;
+}
