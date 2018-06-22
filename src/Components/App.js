@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import "./styles/App.css";
-import Editor from "./Components/Editor";
-import Preview from "./Components/Preview";
-import Header from "./Components/Header";
+import "../styles/App.css";
+import Editor from "./Editor";
+import Preview from "./Preview";
+import Header from "./Header";
 
 class App extends Component {
   constructor(props) {
@@ -26,10 +26,6 @@ class App extends Component {
         "\n" +
         link +
         "\n\n" +
-        inlineCode +
-        "\n" +
-        codeBlock +
-        "\n" +
         inlineCode +
         "\n" +
         codeBlock +
